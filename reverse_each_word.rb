@@ -1,10 +1,10 @@
 def reverse_each_word(strng)
   words = []
   words = strng.split(" ")
+  i = 0
   words.each do |word|
-    bw = ""
-    bw = word.reverse
-    pp bw
+    words[i] = word.reverse
+    i += 1
   end
   words
 end

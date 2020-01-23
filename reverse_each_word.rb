@@ -6,5 +6,5 @@ def reverse_each_word(strng)
     bw = word.reverse
     pp bw
   end
-  words 
+  words
 end

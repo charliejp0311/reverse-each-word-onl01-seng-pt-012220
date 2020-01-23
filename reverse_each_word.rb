@@ -6,7 +6,6 @@ def reverse_each_word(strng)
     words[i] = word.reverse
     i += 1
   end
-  words.join(" ")
-  strng = words
+  strng = words.join(" ")
   strng
 end
